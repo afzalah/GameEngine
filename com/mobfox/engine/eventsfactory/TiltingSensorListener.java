@@ -3,8 +3,8 @@ package com.mobfox.engine.eventsfactory;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorManager;
-import com.mobfox.engine.framework.Input.TiltEvent;
 import com.mobfox.engine.framework.Pool;
+import com.mobfox.engine.framework.TiltingSensor.TiltEvent;
 
 import java.util.ArrayList;
 import java.util.List;

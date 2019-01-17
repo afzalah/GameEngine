@@ -1,7 +1,7 @@
 package com.mobfox.engine.eventsfactory;
 
 import android.hardware.SensorEventListener;
-import com.mobfox.engine.framework.Input;
+import com.mobfox.engine.framework.TiltingSensor;
 
 import java.util.List;
 
@@ -16,5 +16,5 @@ public interface TiltListener extends SensorEventListener {
 
     public long getLastUpdateTime(int sensor);
 
-    public List<Input.TiltEvent> getTiltingEvents();
+    public List<TiltingSensor.TiltEvent> getTiltingEvents();
 }
